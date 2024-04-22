@@ -10,7 +10,6 @@ pool:
   name: MyAgentPool
   vmImage: 'windows-latest'
   demands:
-    - maven
     - Agent.Version -gtVersion 2.163.1
 
 steps:
